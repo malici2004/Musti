@@ -1,0 +1,66 @@
+    /*Style.css*/
+
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+    
+    body{
+      background-color: black;
+        
+
+    }  
+    div.Einleitung{
+        gap: 1em;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        padding-top:2em;
+        padding-bottom: 2em;
+        padding-right: 2em;
+        background-color: rgb(7, 199, 7);
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+        box-shadow: rgb(7, 199, 7) 0px 0px 0px 2px inset,black 10px -10px 0px -3px, rgb(7, 199, 7) 10px -10px,black 20px -20px 0px -3px, rgb(7, 199, 7) 20px -20px,black 30px -30px 0px -3px, rgb(7, 199, 7) 30px -30px, black 40px -40px 0px -3px,rgb(7, 199, 7) 40px -40px;
+        max-width: 115vh;
+        
+        
+     
+
+    }
+    p{
+      font-family: Arial, Helvetica, sans-serif;
+      word-spacing: 2px;
+      letter-spacing: 1px;
+      margin-left: 20px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    li,h1 
+        {
+        color: normal;
+
+    }
+
+
+    #H1Steckbrief{
+      font-weight: bolder;
+      font-style: italic;
+    }
+    .Background-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('Bilder/Matrix.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: repeat;
+      background-attachment: fixed;
+      height: 100vh;
+      
+    }
